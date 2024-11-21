@@ -1,0 +1,51 @@
+/* App.css */
+
+/* Corps de la page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Conteneur principal */
+.App {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Titre */
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Liste des utilisateurs */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Élément de la liste */
+li {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+li:hover {
+  background-color: #f9f9f9;
+}
+
+
+
